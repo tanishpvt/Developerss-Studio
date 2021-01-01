@@ -2190,7 +2190,7 @@ input,textarea{
     margin-bottom: 20px;
     resize: none;
     color: #000;
-    width: 400px;
+    width: 300px;
 }
 
 input::placeholder,textarea::placeholder{
