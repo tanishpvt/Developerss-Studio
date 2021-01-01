@@ -2173,11 +2173,32 @@ footer .copyright--2 {
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .big-text {
-    top: 60%;
-    left: 50%;
-    
-  }
+
+
+/* My styles */
+.footer{
+	padding-bottom: 70px;
+}
+form{
+    position: relative;
+}
+input,textarea{
+    padding: 10px 20px;
+    border-radius: 100px;
+    background:  rgb(232, 240, 254);
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    resize: none;
+    color: #000;
+    width: 400px;
 }
 
+input::placeholder,textarea::placeholder{
+    color: rgba(0, 0, 0, 0.52);
+}
+form .btn{
+    position: absolute;
+    left: 0;
+    top: 80%;
+	font-weight: 500;
+}
